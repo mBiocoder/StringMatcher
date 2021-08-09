@@ -1,5 +1,3 @@
-package sample;
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
@@ -14,13 +12,6 @@ import java.util.HashMap;
 import java.util.Random;
 
 public class Main extends Application {
-    /* Usage: java SucheInTexten.jar [-n] [-z] [-kmp] [-bmn] [-bmb] [-t <text>] [-p <pattern>]
--n: naive
--z: z box algorithm
--kmp: Knuth-Morris-Pratt
--bmn: Boyer-Moore with next table
--bmb: Boyer-Moore with bad character rule
- */
     public static void main(String[] args) {
 
         // Parse arguments
