@@ -1,5 +1,3 @@
-package sample;
-
 import java.io.File;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,13 +9,11 @@ public class Parser {
     private HashSet<String> allowedOptions;
     private HashSet<String> obligatoryOptions;
     private HashSet<String> nonParameterOptions;
-
-    //Erweiterung
+    
     private HashSet<String> intOptions;
     private HashSet<String> doubleOptions;
     private HashSet<String> fileOptions;
 
-    //Konstruktor
     public Parser(String... allowedOptions) {
         this.allowedOptions = new HashSet<>();
         this.allowedOptions.addAll(Arrays.asList(allowedOptions));
@@ -57,7 +53,7 @@ public class Parser {
             }
         }
 
-        //testen, ob alle obligatory Options enthalten sind.
+       
         for (String option : obligatoryOptions) {
             if (!parameterMap.containsKey(option)) {
                 throw new RuntimeException("Obligatory option missing: " + option);
@@ -65,7 +61,7 @@ public class Parser {
         }
     }
 
-    // set parameter types
+   
     public void setInt(String... intOptions) {
         this.intOptions.addAll(Arrays.asList(intOptions));
     }
