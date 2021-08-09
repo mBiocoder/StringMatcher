@@ -8,4 +8,4 @@ This repository contains the implementation of following algorithms:
 4. Boyer-Moore with next table (BMN)
 5. Boyer-Moore with bad character rule (BMB)
 
-Additionally benchmarking is performed comparing the runtime (symbol comparisons) between two algorithms and plotting this using JavaFX.
+Additionally benchmarking is performed comparing the runtime (symbol comparisons) between two algorithms and plotting this in a line chart using JavaFX.
