@@ -11,3 +11,5 @@ This repository contains the implementation of following algorithms:
 Additionally benchmarking is performed comparing the runtime (symbol comparisons) between two algorithms and plotting this in a line chart using JavaFX.
 
 The package sample contains code specifically for the naive algorithm. It has the naive algorithm and the modified naive algorithm implemented, where each character in the pattern is different and can then plot the runtime for various alphabets (DNA, binary and alphanumerical).
+
+There are two types of the naive algorithm implemented inside the folder NaiveStringMatching. The classical version and a modified naive algorithm, where we assume that all characters in a given pattern are different and thus never the same.
