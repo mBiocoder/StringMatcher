@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#Author: Mahima Arunkumar
 import sys
 Text=sys.argv[1]
 kvar=int(sys.argv[2])
