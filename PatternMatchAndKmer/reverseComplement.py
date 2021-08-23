@@ -1,10 +1,4 @@
-Mahima Arunkumar@DESKTOP-964U36A MINGW64 ~/work
-$ vi reverseComplement.py
-
-//In vi:
-
 #!/usr/bin/python3
-#Author: Mahima Arunkumar
 import sys
 pattern = sys.argv[1]
 
@@ -30,9 +24,3 @@ def reverseComplement(pattern):
     return output [::-1]
 
 print(reverseComplement(pattern))
-
-
-//Überprüfen, ob das Script funktioniert
-Mahima Arunkumar@DESKTOP-964U36A MINGW64 ~/work
-$ python reverseComplement.py ATGATCAAG
-CTTGATCAT
