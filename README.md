@@ -9,6 +9,7 @@ This repository contains the implementation of following algorithms:
 5. Boyer-Moore with bad character rule (BMB)
 6. Approx. Pattern Matching with python
 7. PatternMatchAndKmer with python
+
 ##############################################
 8. Alignment and Benchmarking with Python
 
