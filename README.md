@@ -11,6 +11,7 @@ This repository contains the implementation of following algorithms:
 7. PatternMatchAndKmer with python
 
 ##############################################
+
 8. Alignment and Benchmarking with Python
 
 Additionally benchmarking is performed comparing the runtime (symbol comparisons) between two algorithms and plotting this in a line chart using JavaFX.
